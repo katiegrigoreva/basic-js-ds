@@ -115,7 +115,7 @@ class BinarySearchTree {
   max() {
     let node = this.rootNode;
     
-    while (node.rigth) {
+    while (node.right) {
       node = node.right;
     }
     return node.data;
